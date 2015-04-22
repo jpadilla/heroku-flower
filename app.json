@@ -1,0 +1,20 @@
+{
+  "name": "Flower",
+  "description": "Flower is a web based tool for monitoring and administrating Celery clusters.",
+  "keywords": [
+    "celery",
+    "monitor"
+  ],
+  "website": "https://github.com/jpadilla/heroku-flower",
+  "repository": "https://github.com/jpadilla/heroku-flower",
+  "env": {
+    "FLOWER_BROKER_URL": {
+      "description": "Default broker URL.",
+      "value": ""
+    },
+    "FLOWER_BASIC_AUTH": {
+      "description": "Enables HTTP Basic authentication. Comma separated list of username:password",
+      "value": "admin:abc123"
+    }
+  }
+}
