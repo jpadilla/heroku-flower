@@ -8,7 +8,7 @@
   "website": "https://github.com/jpadilla/heroku-flower",
   "repository": "https://github.com/jpadilla/heroku-flower",
   "env": {
-    "FLOWER_BROKER_URL": {
+    "BROKER_URL": {
       "description": "Default broker URL.",
       "value": ""
     },
