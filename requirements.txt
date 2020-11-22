@@ -1,1 +1,2 @@
 flower
+celery<5
